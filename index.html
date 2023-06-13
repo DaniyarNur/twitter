@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- sidebar starts -->
+    <div class="sidebar">
+      <i class="fab fa-twitter"></i>
+      <a href="index.html">
+        <div class="sidebarOption active">
+          <span class="material-icons"> home </span>
+          <h2>Home</h2>
+        </div>
+      </a>
+
+      <a href="explore.html">
+        <div class="sidebarOption">
+          <span class="material-icons"> search </span>
+          <h2>Explore</h2>
+        </div>
+      </a>
+
+      <a href="notifications.html">
+        <div class="sidebarOption">
+          <span class="material-icons"> notifications_none </span>
+          <h2>Notifications</h2>
+        </div>
+      </a>
+
+      <a href="messages.html">
+        <div class="sidebarOption">
+          <span class="material-icons"> mail_outline </span>
+          <h2>Messages</h2>
+        </div>
+      </a>
+
+      <a href="bookmarks.html">
+        <div class="sidebarOption">
+          <span class="material-icons"> bookmark_border </span>
+          <h2>Bookmarks</h2>
+        </div>
+      </a>
+
+      <a href="lists.html">
+        <div class="sidebarOption">
+          <span class="material-icons"> list_alt </span>
+          <h2>Lists</h2>
+        </div>
+      </a>
+
+      <a href="profile.html">
+        <div class="sidebarOption">
+          <span class="material-icons"> perm_identity </span>
+          <h2>Profile</h2>
+        </div>
+      </a>
+
+      <a href="topics.html">
+        <div class="sidebarOption">
+          <span class="material-icons"> more_horiz </span>
+          <h2>Topics</h2>
+        </div>
+      </a>
+      <button class="sidebar__tweet">Tweet</button>
+    </div>
+    <!-- sidebar ends -->
+
+    <!-- feed starts -->
+    <div class="feed">
+      <div class="feed__header">
+        <h2>Home</h2>
+      </div>
+
+      <!-- tweetbox starts -->
+      <div class="tweetBox">
+        <form>
+          <div class="tweetbox__input">
+            <img  src="images/profile_photo.jpeg"  alt="" />
+            <input type="text" placeholder="What's happening?" />
+          </div>
+
+          <button class="tweetBox__tweetButton">Tweet</button>
+         
+        </form>
+      </div>
+      <!-- tweetbox ends -->
+      <div class="post">
+        <div class="post__avatar">
+            <a href="weeknd.html">
+              <img src="img/thwavatar.jpeg"  alt=""/>
+            </a>
+        </div>
+
+        <div class="post__body">
+            <div class="post__header">
+                <div class="post__headerText">
+                  <a href="weeknd.html">
+                    <h3>
+                        The Weeknd
+                        <span class="post__headerSpecial"
+                        ><span class="material-icons post__badge"> verified </span>@theweeknd</span>
+                    </h3>
+                  </a>  
+                </div>
+                <div class="post__headerDescription">
+                    <p>Pitching my idea once again for a crossover of Das Boot & Boss Baby.</p>
+                </div>
+            </div>
+            <img src="img/weekpost.jpeg" alt="" />
+            <div class="post__footer">
+                <span class="material-icons"> repeat </span>
+                <span class="material-icons"> favorite_border </span>
+                <span class="material-icons"> publish </span>
+            </div>
+        </div>
+    </div>
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="img/bbclogo.jpeg" alt="" />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                BBC News (World)
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@BBCWorld</span>
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>Putin says no more massive strikes on Ukraine - for now</p>
+            </div>
+          </div>
+          <img src="img/putin.webp"/>
+          <div class="post__footer">
+            <span class="material-icons"> repeat </span>
+            <span class="material-icons"> favorite_border </span>
+            <span class="material-icons"> publish </span>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img src="img/elonava.jpeg"  alt=""/>
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Elon Musk
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@elonmusk</span>
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>Pitching my idea once again for a crossover of Das Boot & Boss Baby.</p>
+            </div>
+          </div>
+          <img
+            src="img/elonpost.png"
+            alt=""
+          />
+          <div class="post__footer">
+            <span class="material-icons"> repeat </span>
+            <span class="material-icons"> favorite_border </span>
+            <span class="material-icons"> publish </span>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+    
+
+ <!-- post starts -->
+ <div class="post">
+  <div class="post__avatar">
+    <img
+      src="img/kanava.jpeg" alt="" />
+  </div>
+
+  <div class="post__body">
+    <div class="post__header">
+      <div class="post__headerText">
+        <h3>
+          ye
+          <span class="post__headerSpecial"
+            ><span class="material-icons post__badge">verified</span>@kanyewest</span>
+        </h3>
+      </div>
+      <div class="post__headerDescription">
+        <p>How the day started 🙃</p>
+      </div>
+    </div>
+    <img src="img/kanpost.jpeg"/>
+    <div class="post__footer">
+      <span class="material-icons"> repeat </span>
+      <span class="material-icons"> favorite_border </span>
+      <span class="material-icons"> publish </span>
+    </div>
+  </div>
+</div>
+<!-- post ends -->
+
+<!-- post starts -->
+<div class="post">
+  <div class="post__avatar">
+    <img
+      src="img/ava3.png" alt="" />
+  </div>
+
+  <div class="post__body">
+    <div class="post__header">
+      <div class="post__headerText">
+        <h3>
+          Dov Kleiman
+          <span class="post__headerSpecial"
+            ><span class="material-icons post__badge">verified</span>@NFL_DovKleiman</span>
+        </h3>
+      </div>
+      <div class="post__headerDescription">
+        <p>With pick 1 overall in the 2021 NFL Draft, the <a href="https://twitter.com/hashtag/Jaguars?src=hashtag_click"
+          >#Jaguars</a> are selecting QB Trevor Lawrence.</p>
+      </div>
+    </div>
+    <img src="img/post3.jpeg"/>
+    <div class="post__footer">
+      <span class="material-icons"> repeat </span>
+      <span class="material-icons"> favorite_border </span>
+      <span class="material-icons"> publish </span>
+    </div>
+  </div>
+</div>
+<!-- post ends -->
+
+
+</div>
+
+    <!-- feed ends -->
+
+    <div class="widgets">
+      <div class="widgets__input">
+        <span class="material-icons widgets__searchIcon"> search </span>
+        <input type="text" placeholder="Search Twitter" />
+      </div>
+      
+    
+        <div class="layout__right-sidebar-container">
+            <div class="layout__right-sidebar">
+                <div class="trends-for-you">
+                    <div class="trends-for-you__block">
+                        <div class="trends-for-you__heading">
+                            Trends for you
+                        </div>
+                    </div>
+                    <div class="trends-for-you__block">
+                        <div class="trends-for-you__meta-information">
+                            Trending in Germany
+                        </div>
+                        <div class="trends-for-you__trend-name">
+                            #iPhone12
+                        </div>
+                        <div class="trends-for-you__meta-information">
+                            155k Tweets
+                        </div>
+                    </div>
+                    <div class="trends-for-you__block">
+                        <div class="trends-for-you__meta-information">
+                            Trending in Germany
+                        </div>
+                        <div class="trends-for-you__trend-name">
+                            #AmazonPrimeDay
+                        </div>
+                        <div class="trends-for-you__meta-information">
+                            5,454 Tweets
+                        </div>
+                    </div>
+                    <div class="trends-for-you__block">
+                        <div class="trends-for-you__meta-information">
+                            Trending - Trending
+                        </div>
+                        <div class="trends-for-you__trend-name">
+                            #autos
+                        </div>
+                        <div class="trends-for-you__meta-information">
+                            2,800 Tweets
+                        </div>
+                    </div>
+                </div>
+      
+    
+        <div class="who-to-follow">
+          <div class="who-to-follow__block">
+            <div class="who-to-follow__heading">
+              Who to follow
+            </div>
+          </div>
+          <div class="who-to-follow__block">
+            <img
+              class="who-to-follow__author-logo"
+              src="./images/profile-image-1.jpg"
+            />
+            <div class="who-to-follow__content">
+              <div>
+                <div class="who-to-follow__author-name">
+                  Becki (& Chris)
+                </div>
+                <div class="who-to-follow__author-slug">
+                  @beckiandchris
+                </div>
+              </div>
+              <button class="sidebar__follow">Follow</button>
+            </div>
+          </div>
+          <div class="who-to-follow__block">
+            <img
+              class="who-to-follow__author-logo"
+              src="./images/profile-image-2.png"
+            />
+            <div class="who-to-follow__content">
+              <div>
+                <div class="who-to-follow__author-name">
+                  Elixir Digest
+                </div>
+                <div class="who-to-follow__author-slug">
+                  @elixirdigest
+                </div>
+              </div>
+              <button class="sidebar__follow">Follow</button>
+            </div>
+          </div>
+
+          <div class="who-to-follow__block">
+            <img
+              class="who-to-follow__author-logo"
+              src="./images/profile-image-3.jpg"
+            />
+            <div class="who-to-follow__content">
+              <div>
+                <div class="who-to-follow__author-name">
+                  Chris Martin
+                </div>
+                <div class="who-to-follow__author-slug">
+                  @chris_martin
+                </div>
+              </div>
+              <button class="sidebar__follow">Follow</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  </body>
+</html>
